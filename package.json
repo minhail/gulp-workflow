@@ -1,0 +1,44 @@
+{
+  "name": "dc-workflow",
+  "version": "1.0.0",
+  "description": "project workflow based on gulp",
+  "main": "index.js",
+  "keywords": [
+    "dc"
+  ],
+  "author": "mh",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "cosmiconfig": "^5.2.1",
+    "cssnano": "^4.1.10",
+    "del": "^5.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-ejs": "^4.1.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-less": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rev-all": "^2.0.2",
+    "gulp-rev-delete-original": "^0.2.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-usemin": "^0.3.29",
+    "http-proxy-middleware": "^0.19.1",
+    "webpack": "^4.37.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "browserslist": [
+    "iOS >= 7",
+    "Android >= 4.1"
+  ]
+}

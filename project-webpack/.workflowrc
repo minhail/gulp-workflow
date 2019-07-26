@@ -1,0 +1,21 @@
+{
+  "devServer": {
+    "server": {
+      "routes" : {
+        "/common": "../../common"
+      }
+    },
+    "httpProxy": {
+      "context": "/api",
+      "option": {
+        "target": "http://beta.tutuyuyin.com",
+        "changeOrigin": true,
+        "pathRewrite": {
+          "^/api": "/"
+        }
+      }
+    },
+    "port": "9000"
+  },
+  "reversion": true
+}

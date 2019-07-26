@@ -1,0 +1,1 @@
+{"version":3,"file":"index.css","sources":["index.scss"],"sourcesContent":[".div {\r\n  display: flex;\r\n  align-items: center;\r\n}"],"names":[],"mappings":"AAAA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM,GACpB"}
