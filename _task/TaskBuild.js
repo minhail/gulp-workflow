@@ -256,8 +256,8 @@ function startServer(cb) {
   cb();
 }
 
-module.exports = function(option) {
-  Object.assign(paths, defaultPaths, option);
+module.exports = function() {
+  Object.assign(paths, defaultPaths, config.paths);
 
   gulp.task('build:dev', series(
     function(cb) {
