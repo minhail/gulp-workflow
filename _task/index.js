@@ -6,5 +6,5 @@ fs.readdirSync(__dirname).filter((file) => {
   return file.indexOf('.') !== 0 && file.indexOf('Task') === 0;
 }).forEach((file) => {
   // 加载Task
-  require(path.join(__dirname, file));
+  require(path.join(__dirname, file))();
 });

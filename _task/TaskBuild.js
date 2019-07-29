@@ -52,7 +52,7 @@ const defaultPaths = {
     img: './img/**/*.{JPG,jpg,jpeg,png,gif,svg}',
     js: './js/**/*.js',
     lib: './lib/**/*',
-    html: ['./**/*.html', '!./**/_*/**/*.html'],
+    html: ['./**/*.html', '!./**/_*/**/*.html', '!./dev/**/*.html'],
     htmlAll: './**/*.html',
     exclude: ['./dev/**']
   },
@@ -247,7 +247,7 @@ function startServer(cb) {
   let apiProxy = httpProxy(config.devServer.httpProxy.context, config.devServer.httpProxy.option);
   let server = Object.assign({}, {
     baseDir: paths.dev.dir
-  }, config.server);
+  }, config.devServer.server);
   browserSync.init({
     server: server,
     port: config.devServer.port || '8080',
