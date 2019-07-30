@@ -1,27 +1,4 @@
-/**
- * paths: 打包文件夹路径
- * paths: {
- *  src: {
- *    dir: '',
- *    less: '',
- *    sass: '',
- *    img: '',
- *    js: '',
- *    lib: '',
- *    html: ,
- *    htmlAll: ,
- *    exclude: 
- *  },
- *  dev: {},
- *  tmp: {},
- *  dist: {}
- * },
- * 
- * devServer: browserSync相关配置
- * 
- * reversion: 是否版本控制
- */
-let o = {
+{
   "devServer": {
     "httpProxy": {
       "context": "/api",

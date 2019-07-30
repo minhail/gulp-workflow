@@ -1,10 +1,5 @@
 {
   "devServer": {
-    "server": {
-      "routes" : {
-        "/common": "../../common"
-      }
-    },
     "httpProxy": {
       "context": "/api",
       "option": {
